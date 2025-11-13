@@ -3,6 +3,7 @@ import Calendario from '../../components/Calendario/Calendario'
 import Docs from '../../components/Documentos/Docs'
 import Meet from '../../components/Reuniao/Meet'
 import GoogleDrivePicker from '../../components/Drive/GoogleDrivePicker'
+import Planilhas from '../../components/Planilhas/Planilhas'
 
 const Ferramentas = () => {
   return (
@@ -11,6 +12,7 @@ const Ferramentas = () => {
         <Docs/>
         <Meet/>
         <GoogleDrivePicker/>
+        <Planilhas/>
     </div>
   )
 }

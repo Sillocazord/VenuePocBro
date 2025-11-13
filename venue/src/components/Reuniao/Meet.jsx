@@ -5,7 +5,7 @@ const Meet = () => {
   const [showModal, setShowModal] = useState(false);
 
   // Nome da sala (você pode gerar dinamicamente se quiser)
-  const roomName = "ReuniaoDoSillocazord";
+  const roomName = "ReuniaoDaVenue";
   const jitsiUrl = `https://meet.jit.si/${roomName}`;
 
   return (
