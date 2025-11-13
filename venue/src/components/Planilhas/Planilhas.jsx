@@ -29,7 +29,7 @@ const Planilhas = () => {
   };
 
   return (
-    <div style={{ textAlign: "center", padding: "2rem" }}>
+    <div style={{ textAlign: "center"}}>
       {!isLoggedIn ? (
         <>
           <button
